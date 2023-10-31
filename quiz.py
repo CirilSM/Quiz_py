@@ -1,1 +1,1 @@
-print "QUIZ"
+print ("QUIZ")
