@@ -8,9 +8,7 @@ This activity diagram illustrates the flow of activities in the quiz program. It
 **Class Diaghram** [link](https://github.com/CirilSM/Quiz_py/blob/main/Class%20Diaghram(updated).png)
 
 Quiz class represents the quiz program and contains the main logic.
-
 Question class represents a quiz question and its details.
-
 User class represents a user with a name and their answers.
 
 
