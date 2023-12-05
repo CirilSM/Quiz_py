@@ -11,6 +11,7 @@ Quiz class represents the quiz program and contains the main logic.
 Question class represents a quiz question and its details.
 User class represents a user with a name and their answers.
 
+**My Monday.com Table** [link](https://github.com/CirilSM/Quiz_py/blob/main/Monday%20com.png)
 
 
 
