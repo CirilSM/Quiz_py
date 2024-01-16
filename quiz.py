@@ -1,5 +1,5 @@
 # Quiz Questions and Answers
-quiz_data = { #dictionary for Questions and Answers
+quiz_data = {
     "Cyber Security": [
         {"question": "What does VPN stand for?", "options": ["Virtual Private Network", "Very Personal Network", "Virtual Public Network", "Visual Private Network"], "answer": "Virtual Private Network"},
         {"question": "Which of the following is a strong password?", "options": ["password", "P@ssw0rd", "123456", "qwerty"], "answer": "P@ssw0rd"},
@@ -23,12 +23,26 @@ quiz_data = { #dictionary for Questions and Answers
         {"question": "The more you take, the more you leave behind. What am I?", "options": ["Footsteps", "Money", "Memories", "Time"], "answer": "Footsteps"},
         {"question": "What comes once in a minute, twice in a moment, but never in a thousand years?", "options": ["The letter M", "The number 2", "The word 'now'", "The letter A"], "answer": "The letter M"},
         {"question": "What has keys but can't open locks?", "options": ["Keyboard", "Piano", "Treasure chest", "Map"], "answer": "Piano"}
+    ],
+    "Big Data": [
+        {"question": "What is the term used to describe the massive volume of structured and unstructured data that is generated and processed by organizations?", 
+         "options": ["Large Data", "Huge Data", "Big Data", "Massive Data"], 
+         "answer": "Big Data"},
+        {"question": "Which programming language is commonly used for processing and analyzing Big Data?", 
+         "options": ["Java", "Python", "C#", "R"], 
+         "answer": "Java"},
+        {"question": "What is Hadoop?", 
+         "options": ["A programming language", "A big data processing framework", "A data storage device", "A machine learning algorithm"], 
+         "answer": "A big data processing framework"},
+        {"question": "What is the purpose of Apache Spark in the context of Big Data?", 
+         "options": ["Data visualization", "Data storage", "Data processing", "Data encryption"], 
+         "answer": "Data processing"}
     ]
 }
 
-def run_quiz(topic): # qna for selected topic
+def run_quiz(topic):
     questions = quiz_data.get(topic, [])
-    if not questions:# Choices other than 1,2,3 and 4
+    if not questions:
         print("Invalid topic.")
         return
 
@@ -48,7 +62,7 @@ def run_quiz(topic): # qna for selected topic
 
         user_input = input("Your Answer (1-4): ")
 
-        try: #For conversion to int and exception handling in case invalid input
+        try:
             user_answer_index = int(user_input) - 1
             user_choice = options[user_answer_index]
         except (ValueError, IndexError):
@@ -57,8 +71,7 @@ def run_quiz(topic): # qna for selected topic
 
         user_answers[question] = user_choice 
 
-        if user_choice == answer: #checking if correct
-    
+        if user_choice == answer:
             print("Correct! +5 marks\n")
             score += 5
         else:
@@ -69,32 +82,32 @@ def run_quiz(topic): # qna for selected topic
 
     if score < len(questions):
         print("Incorrect Choices:")
-        for question, user_choice in user_answers.items(): #iterates through user answer
-            correct_answer = next(q["answer"] for q in questions if q["question"] == question)# nextfunction
+        for question, user_choice in user_answers.items():
+            correct_answer = next(q["answer"] for q in questions if q["question"] == question)
             if user_choice != correct_answer:
-                print(f"Q: {question}\nYour Answer: {user_choice}\nCorrect Answer: {correct_answer}\n") # if wrong answer then correct answer is displayed
+                print(f"Q: {question}\nYour Answer: {user_choice}\nCorrect Answer: {correct_answer}\n")
 
-if __name__ == "__main__": #code under block only run if script executed directly
+if __name__ == "__main__":
     while True:
         print("\n--- Choose a Quiz Topic ---")
         for i, topic in enumerate(quiz_data.keys(), start=1):
-            print(f"{i}. {topic}") #QUIZ MENU
+            print(f"{i}. {topic}")
 
         print("0. Exit")
-        choice = input("Enter your choice (0-4): ")
+        choice = input("Enter your choice (0-5): ")
 
         if choice == "0":
             print("Thank you for taking the quiz! Goodbye.")
             break
 
-        try: 
+        try:
             choice_index = int(choice) - 1
             selected_topic = list(quiz_data.keys())[choice_index]
         except (ValueError, IndexError):
-            print("Invalid choice. Please enter a number between 1 and 4.")
+            print("Invalid choice. Please enter a number between 1 and 5.")
             continue
 
-        run_quiz(selected_topic) # calls the function to display qna for topic
+        run_quiz(selected_topic)
 
         play_again = input("Do you want to try another quiz? (yes/no): ")
         if play_again.lower() != "yes":
