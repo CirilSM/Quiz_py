@@ -2,16 +2,16 @@
 quiz_data = {
     "Cyber Security": [
         {"question": "What does VPN stand for?", 
-         "options": ["Virtual Private Network", "Very Personal Network", "Virtual Public Network", "Visual Private Network"],
+         "options": ["Virtual Private Network", "Very Personal Network", "Virtual Public Network", "Visual Private Network"], 
          "answer": "Virtual Private Network"},
         {"question": "Which of the following is a strong password?", 
          "options": ["password", "P@ssw0rd", "123456", "qwerty"], 
          "answer": "P@ssw0rd"},
         {"question": "What is the purpose of a firewall?", 
-         "options": ["Protects against viruses", "Monitors internet speed", "Controls network access", "Manages computer files"],
+         "options": ["Protects against viruses", "Monitors internet speed", "Controls network access", "Manages computer files"], 
          "answer": "Controls network access"},
         {"question": "What is phishing?", 
-         "options": ["Fishing in the sea", "A cyber attack to steal information", "A programming language", "A type of computer virus"], 
+         "options": ["Fishing in the sea", "A cyber attack to steal information", "A programming language", "A type of computer virus"],
          "answer": "A cyber attack to steal information"}
     ],
     "Mathematics": [
@@ -25,12 +25,12 @@ quiz_data = {
          "options": ["6", "8", "10", "12"], 
          "answer": "8"},
         {"question": "In a right-angled triangle, what is the length of the hypotenuse if the other sides are 3 and 4?", 
-         "options": ["5", "6", "7", "8"],
+         "options": ["5", "6", "7", "8"], 
          "answer": "5"}
     ],
     "Simple Coding": [
         {"question": "What does HTML stand for?", 
-         "options": ["HyperText Markup Language", "High-level Text Machine Language", "HyperText and links Markup Language", "Home Tool Markup Language"],
+         "options": ["HyperText Markup Language", "High-level Text Machine Language", "HyperText and links Markup Language", "Home Tool Markup Language"], 
          "answer": "HyperText Markup Language"},
         {"question": "Which programming language is known for its simplicity and readability?", 
          "options": ["C++", "Python", "Java", "Ruby"], 
@@ -77,17 +77,21 @@ def run_quiz(topic):
     if not questions:
         print("Invalid topic.")
         return
+
     score = 0
     user_answers = {}
+
     print(f"\n--- {topic} Quiz ---\n")
 
     for i, question_data in enumerate(questions, start=1):
         question = question_data["question"]
         options = question_data["options"]
         answer = question_data["answer"]
+
         print(f"Q{i}. {question}")
         for j, option in enumerate(options, start=1):
             print(f"   {j}. {option}")
+
         user_input = input("Your Answer (1-4): ")
 
         try:
@@ -96,15 +100,19 @@ def run_quiz(topic):
         except (ValueError, IndexError):
             print("Invalid input. Skipping question.")
             continue
-            
+
         user_answers[question] = user_choice 
 
+        # Define constants for marks
+        CORRECT_MARKS = 5
+        INCORRECT_PENALTY = 1
+
         if user_choice == answer:
-            print("Correct! +5 marks\n")
-            score += 5
+            print(f"Correct! +{CORRECT_MARKS} marks\n")
+            score += CORRECT_MARKS
         else:
-            print(f"Wrong! The correct answer is: {answer}. -1 mark\n")
-            score -= 1
+            print(f"Wrong! The correct answer is: {answer}. -{INCORRECT_PENALTY} mark\n")
+            score -= INCORRECT_PENALTY
 
     print(f"\nYour {topic} Quiz Score: {score} marks\n")
 
