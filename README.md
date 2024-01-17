@@ -1,4 +1,4 @@
-# Quiz_py #https://sonarcloud.io/api/project_badges/measure?project=CirilSM_Quiz_py&metric=reliability_rating
+# Quiz_py #[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=CirilSM_Quiz_py&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=CirilSM_Quiz_py)
 The user of this straightforward quiz can choose among 4 interesting topics of Quiz. The wrong choices are followed by the correct ones displayed right after.
 
 **Activity Diaghram** [link](https://github.com/CirilSM/Quiz_py/blob/main/Activity%20Diaghram%20(Updated).png)
