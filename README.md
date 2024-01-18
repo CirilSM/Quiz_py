@@ -27,5 +27,5 @@ User class represents a user with a name and their answers.
 **3.1Notion.so** -[link](https://wry-lamp-8a7.notion.site/Quiz-Program-7abd1dbe368640649303ea09d23d82cc?pvs=4)
 
 Trello - [link](https://trello.com/invite/b/Bgu6AhXb/ATTI98901215374970c6e9f727dc23b4e33cB031ADDA/quiz)
-
+Jira - [link](https://ciril2992000.atlassian.net/jira/software/projects/QUIZ/boards/3)
 
