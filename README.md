@@ -33,3 +33,5 @@ User class represents a user with a name and their answers.
 Trello - [link](https://trello.com/invite/b/Bgu6AhXb/ATTI98901215374970c6e9f727dc23b4e33cB031ADDA/quiz)
 Jira - [link](https://ciril2992000.atlassian.net/jira/software/projects/QUIZ/boards/3)
 
+**DDD***
+Eventstorming - [Miro](https://miro.com/app/board/uXjVN4fbazU=/?share_link_id=146440318679)
