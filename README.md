@@ -12,6 +12,6 @@ Question class represents a quiz question and its details.
 User class represents a user with a name and their answers.
 
 **My Monday.com Table** [link](https://github.com/CirilSM/Quiz_py/blob/main/Monday%20com.png) (As of 05/12/2023)
-
+Notion.so -[link](https://wry-lamp-8a7.notion.site/Quiz-Program-7abd1dbe368640649303ea09d23d82cc?pvs=4)
 
 
