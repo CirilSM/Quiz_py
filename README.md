@@ -1,5 +1,9 @@
-# Quiz_py #[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=CirilSM_Quiz_py&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=CirilSM_Quiz_py)
-The user of this straightforward quiz can choose among 4 interesting topics of Quiz. The wrong choices are followed by the correct ones displayed right after.
+# Quiz_py #[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=CirilSM_Quiz_py&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=CirilSM_Quiz_py
+The user of this quiz can choose among 5 interesting topics of being Mathematics,Cyber Security,Simple Coding,Riddles and Big Data.Each correct answer has a score of 5 and each wrong choice a -1 score.The total score would be presented at the end of the Quiz and the user can choose to exit the quiz or try it again.
+*METHOD*
+
+*INSIDE CODE*
+
 
 **2.1Activity Diaghram** [link](https://github.com/CirilSM/Quiz_py/blob/main/Activity%20Diaghram%20(Updated).png)
 
