@@ -11,6 +11,7 @@ IDE - Visual Studio
 Dictionaries - Cyber Security, Mathematics, Simple Coding, Riddles, Big Data
 Functions - run_quiz(topic)
 
+
 **UML**
 
 *Activity Diaghram* [link](https://github.com/CirilSM/Quiz_py/blob/main/Activity%20Diaghram%20(Updated).png)
@@ -26,13 +27,16 @@ Question class represents a quiz question and its details.
 User class represents a user with a name and their answers.
 
 
+
 **Requirements Engineering** 
 
 *Trello* - [link](https://trello.com/invite/b/Bgu6AhXb/ATTI98901215374970c6e9f727dc23b4e33cB031ADDA/quiz)
 
 *Jira* - [link](https://ciril2992000.atlassian.net/jira/software/projects/QUIZ/boards/3)
 
+
 **ANALYSIS**
+
 
 **DDD**
 *A. Eventstorming* - [Miro](https://miro.com/app/board/uXjVN4fbazU=/?share_link_id=146440318679)
