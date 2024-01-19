@@ -1,7 +1,7 @@
 # QUIZ
 The user of this quiz can choose among 5 interesting topics Mathematics, Cyber Security,Simple Coding, Riddles and Big Data. Each correct answer has a score of 5 and each wrong choice has a -1 score. The total score would be presented at the end of the Quiz and the user can choose to exit the quiz or try it again.
 
-***METHOD***
+**METHOD**
 
 ||Language of choice - Python
 ||IDE - Visual Studio
@@ -43,9 +43,9 @@ User class represents a user with a name and their answers.
 
 ||*A. Eventstorming* - [Miro](https://miro.com/app/board/uXjVN4fbazU=/?share_link_id=146440318679)
 
-||*B. Core Domain Chart - *
+||*B. Core Domain Chart*
 
-||*C. Relations/Mappings between the Domain - *
+||*C. Relations/Mappings between the Domain*
 
 
 ****METRICS****
