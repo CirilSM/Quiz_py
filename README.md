@@ -3,22 +3,22 @@ The user of this quiz can choose among 5 interesting topics Mathematics, Cyber S
 
 ***METHOD***
 
-Language of choice - Python
-IDE - Visual Studio
+||Language of choice - Python
+||IDE - Visual Studio
 
 *INSIDE CODE*
 
-Dictionaries - Cyber Security, Mathematics, Simple Coding, Riddles, Big Data
-Functions - run_quiz(topic)
+||Dictionaries - Cyber Security, Mathematics, Simple Coding, Riddles, Big Data
+||Functions - run_quiz(topic)
 
 
 ****UML****
 
-*Activity Diaghram* [link](https://github.com/CirilSM/Quiz_py/blob/main/Activity%20Diaghram%20(Updated).png)
+||*Activity Diaghram* [link](https://github.com/CirilSM/Quiz_py/blob/main/Activity%20Diaghram%20(Updated).png)
 
 This activity diagram illustrates the flow of activities in the quiz program. It starts with choosing a quiz topic and then proceeds through asking questions, checking answers, updating scores, and handling the end of the quiz. If the user chooses to exit the quiz, it displays a goodbye message; otherwise, it allows the user to choose another quiz topic.
 
-*Class Diaghram* [link](https://github.com/CirilSM/Quiz_py/blob/main/Class%20Diaghram(updated).png)
+||*Class Diaghram* [link](https://github.com/CirilSM/Quiz_py/blob/main/Class%20Diaghram(updated).png)
 
 The class diagram illustrates the structure of a quiz system using classes such as QuizSystem, Quiz, Question, and User. These classes depict the organization of quizzes, questions, and users within the system, showcasing their attributes and relationships. Arrows between classes represent associations, providing a concise visual representation of the static structure and connections in the quiz application.
 
@@ -30,20 +30,21 @@ User class represents a user with a name and their answers.
 
 ****REQUIREMENTS ENGINEERING** **
 
-*Trello* - [link](https://trello.com/invite/b/Bgu6AhXb/ATTI98901215374970c6e9f727dc23b4e33cB031ADDA/quiz)
+||*Trello* - [link](https://trello.com/invite/b/Bgu6AhXb/ATTI98901215374970c6e9f727dc23b4e33cB031ADDA/quiz)
 
-*Jira* - [link](https://ciril2992000.atlassian.net/jira/software/projects/QUIZ/boards/3)
+||*Jira* - [link](https://ciril2992000.atlassian.net/jira/software/projects/QUIZ/boards/3)
 
 
 ****ANALYSIS****
 
 
 ****DDD****
-*A. Eventstorming* - [Miro](https://miro.com/app/board/uXjVN4fbazU=/?share_link_id=146440318679)
 
-*B. Core Domain Chart - *
+||*A. Eventstorming* - [Miro](https://miro.com/app/board/uXjVN4fbazU=/?share_link_id=146440318679)
 
-*C. Relations/Mappings between the Domain - *
+||*B. Core Domain Chart - *
+
+||*C. Relations/Mappings between the Domain - *
 
 
 ****METRICS****
