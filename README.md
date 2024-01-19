@@ -28,7 +28,8 @@ User class represents a user with a name and their answers.
 
 
 
-****REQUIREMENTS ENGINEERING** **
+***REQUIREMENTS ENGINEERING***
+
 
 ||*Trello* - [link](https://trello.com/invite/b/Bgu6AhXb/ATTI98901215374970c6e9f727dc23b4e33cB031ADDA/quiz)
 
