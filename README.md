@@ -66,7 +66,7 @@ User class represents a user with a name and their answers.
 
 ||*B PART* - [link](https://github.com/CirilSM/Quiz_py/blob/main/CHEAT%20SHEET.pdf)
 
-***BUILD***
+***BUILD MANAGEMENT*** - [link](https://github.com/CirilSM/Quiz_py/blob/main/.github/workflows/main.yml)
 
 
 ***UNIT TESTS*** - [CODE](https://github.com/CirilSM/Quiz_py/blob/main/QUIZ_test.py)
