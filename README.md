@@ -68,9 +68,7 @@ User class represents a user with a name and their answers.
 ***BUILD***
 
 
-***UNIT TESTS***
-
-[CODE](https://github.com/CirilSM/Quiz_py/blob/main/QUIZ_test.py)
+***UNIT TESTS*** - [CODE](https://github.com/CirilSM/Quiz_py/blob/main/QUIZ_test.py)
 
 ***IDE*** - Visual Studio Code
 
