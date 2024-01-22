@@ -73,7 +73,7 @@ User class represents a user with a name and their answers.
 
 ***IDE*** - Visual Studio Code
 
-***FUNCTIONAL PROGRAMMING***
+***FUNCTIONAL PROGRAMMING*** - [link](https://github.com/CirilSM/Quiz_py/blob/main/FUNCTIONAL%20PROGRAMMING.pdf)
 
 
 
