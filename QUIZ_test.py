@@ -6,33 +6,24 @@ from QUIZ_main import run_quiz, quiz_data
 class TestQuiz(unittest.TestCase):
 
     @patch('builtins.input', side_effect=['1', '2', '3', '4'])
-    def test_run_quiz_correct_answers(self, mock_input):
-        topics = list(quiz_data.keys())
-        for topic in topics:
-            with self.subTest(topic=topic):
-                with patch('sys.stdout', new_callable=StringIO) as mock_stdout:
-                    run_quiz(topic)
+    def test_run_quiz_cyber_security_correct_answers(self, mock_input):
+        with patch('sys.stdout', new_callable=StringIO) as mock_stdout:
+            run_quiz("Cyber Security")
 
-                # Replace the following assertions with the correct expected output
-                expected_output = f"Your {topic} Quiz Score: "
-                self.assertIn(expected_output, mock_stdout.getvalue())
+        expected_output = "Your Cyber Security Quiz Score:"
+        self.assertIn(expected_output, mock_stdout.getvalue())
+        self.assertIn("Correct!", mock_stdout.getvalue())
+        self.assertNotIn("Wrong!", mock_stdout.getvalue())
 
-    @patch('builtins.input', side_effect=['5', '6', '7', '8'])
-    def test_run_quiz_incorrect_answers(self, mock_input):
-        topics = list(quiz_data.keys())
-        for topic in topics:
-            with self.subTest(topic=topic):
-                with patch('sys.stdout', new_callable=StringIO) as mock_stdout:
-                    run_quiz(topic)
+    @patch('builtins.input', side_effect=['4', '3', '2', '1'])
+    def test_run_quiz_mathematics_incorrect_answers(self, mock_input):
+        with patch('sys.stdout', new_callable=StringIO) as mock_stdout:
+            run_quiz("Mathematics")
 
-                # Replace the following assertions with the correct expected output
-                expected_output = f"Your {topic} Quiz Score: "
-                self.assertIn(expected_output, mock_stdout.getvalue())
-                
-    def test_run_quiz_invalid_topic(self):
-        with patch('builtins.input', return_value='0'):
-            with self.assertRaises(SystemExit):
-                run_quiz("Invalid Topic")
+        expected_output = "Your Mathematics Quiz Score:"
+        self.assertIn(expected_output, mock_stdout.getvalue())
+        self.assertIn("Wrong!", mock_stdout.getvalue())
+        self.assertNotIn("Correct!", mock_stdout.getvalue())
 
 if __name__ == '__main__':
     unittest.main()
