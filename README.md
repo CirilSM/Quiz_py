@@ -34,6 +34,8 @@ User class represents a user with a name and their answers.
 
 ***REQUIREMENTS ENGINEERING***
 
+Requirements engineering is a systematic process of identifying, documenting, and managing the needs and expectations of stakeholders in the development of a system. It involves activities such as elicitation, specification, validation, and management to ensure clear communication and successful project outcomes.
+
 
 ||*Trello* - [link](https://trello.com/invite/b/Bgu6AhXb/ATTI98901215374970c6e9f727dc23b4e33cB031ADDA/quiz)
 
@@ -41,6 +43,8 @@ User class represents a user with a name and their answers.
 
 
 ***ANALYSIS***
+
+Domain-Driven Design (DDD) is an approach to software development that focuses on understanding and modeling the real-world problem domain within which a system operates. It emphasizes collaboration between technical and domain experts to create a shared understanding of the business domain, resulting in a more effective and strategic design of software systems. DDD encourages the use of a ubiquitous language, strategic design patterns, and a focus on the core business logic to align software development with the complexities of the problem domain.
 
 ||PART A (Checklist) - [link](https://github.com/CirilSM/Quiz_py/blob/main/PART%20A.pdf)
 
@@ -62,6 +66,9 @@ User class represents a user with a name and their answers.
 
 ***CLEAN CODE DEVELOPMENT***
 
+
+Clean code development refers to the practice of writing code that is easy to understand, maintain, and modify. It emphasizes principles such as readability, simplicity, and clarity, aiming to produce code that is efficient and free of unnecessary complexity, making it more reliable and easier for developers to work with over time. Clean code is a concept popularized by Robert C. Martin and is associated with principles outlined in his book "Clean Code: A Handbook of Agile Software Craftsmanship."
+
 ||*A PART* - [link](https://github.com/CirilSM/Quiz_py/blob/main/CLEAN%20CODE%20DEVELOPMENT.pdf)
 
 ||*B PART* - [link](https://github.com/CirilSM/Quiz_py/blob/main/CHEAT%20SHEET.pdf)
@@ -71,7 +78,7 @@ User class represents a user with a name and their answers.
 
 ***UNIT TESTS*** - [CODE](https://github.com/CirilSM/Quiz_py/blob/main/QUIZ_test.py)
 
-***IDE*** - Visual Studio Code
+***IDE*** - Visual Studio Code [link](https://github.com/CirilSM/Quiz_py/blob/main/IDE.pdf)
 
 ***FUNCTIONAL PROGRAMMING*** - [link](https://github.com/CirilSM/Quiz_py/blob/main/FUNCTIONAL%20PROGRAMMING.pdf)
 
