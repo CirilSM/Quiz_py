@@ -4,11 +4,13 @@ The user of this quiz can choose among 5 interesting topics Mathematics, Cyber S
 **METHOD**
 
 ||Language of choice - Python
+
 ||IDE - Visual Studio
 
 *INSIDE CODE*
 
 ||Dictionaries - Cyber Security, Mathematics, Simple Coding, Riddles, Big Data
+
 ||Functions - run_quiz(topic)
 
 [Github Activity](https://github.com/CirilSM/Quiz_py/activity)
@@ -65,6 +67,7 @@ Domain-Driven Design (DDD) is an approach to software development that focuses o
 
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=CirilSM_Quiz_py&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=CirilSM_Quiz_py)[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=CirilSM_Quiz_py&metric=bugs)](https://sonarcloud.io/summary/new_code?id=CirilSM_Quiz_py)[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=CirilSM_Quiz_py&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=CirilSM_Quiz_py)[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=CirilSM_Quiz_py&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=CirilSM_Quiz_py)[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=CirilSM_Quiz_py&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=CirilSM_Quiz_py)[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=CirilSM_Quiz_py&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=CirilSM_Quiz_py)[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=CirilSM_Quiz_py&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=CirilSM_Quiz_py)[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=CirilSM_Quiz_py&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=CirilSM_Quiz_py)
 
+
 ***CLEAN CODE DEVELOPMENT***
 
 
@@ -74,12 +77,16 @@ Clean code development refers to the practice of writing code that is easy to un
 
 ||*B PART* - [link](https://github.com/CirilSM/Quiz_py/blob/main/CHEAT%20SHEET.pdf)
 
+
+
 ***BUILD MANAGEMENT*** - [link](https://github.com/CirilSM/Quiz_py/blob/main/.github/workflows/main.yml)
 
 
 ***UNIT TESTS*** - [CODE](https://github.com/CirilSM/Quiz_py/blob/main/QUIZ_test.py)
 
+
 ***IDE*** - Visual Studio Code [link](https://github.com/CirilSM/Quiz_py/blob/main/IDE.pdf)
+
 
 ***FUNCTIONAL PROGRAMMING*** - [link](https://github.com/CirilSM/Quiz_py/blob/main/FUNCTIONAL%20PROGRAMMING.pdf)
 
