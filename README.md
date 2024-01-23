@@ -3,9 +3,9 @@ The user of this quiz can choose among 5 interesting topics Mathematics, Cyber S
 
 **METHOD**
 
-    Language of choice - Python
+>Language of choice - Python
 
-||IDE - Visual Studio
+>IDE - Visual Studio
 
 *INSIDE CODE*
 
