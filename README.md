@@ -3,7 +3,7 @@ The user of this quiz can choose among 5 interesting topics Mathematics, Cyber S
 
 **METHOD**
 
-&emspLanguage of choice - Python
+    Language of choice - Python
 
 ||IDE - Visual Studio
 
