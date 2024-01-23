@@ -11,6 +11,7 @@ The user of this quiz can choose among 5 interesting topics Mathematics, Cyber S
 ||Dictionaries - Cyber Security, Mathematics, Simple Coding, Riddles, Big Data
 ||Functions - run_quiz(topic)
 
+[Github Activity](https://github.com/CirilSM/Quiz_py/activity)
 
 ****UML****
 
